@@ -6,15 +6,15 @@ module.exports = function(app){
 //routes
 
 app.route('/api/emp')
-//	.post(emp.createEmployee,)
+	.post(emp.createEmployee,)
 	.get(emp.getAllEmployee);
 
 
-/* app.route('/api/:empId')
+app.route('/api/:empId')
 	.get(emp.getEmployee)
 	.put(emp.updateEmployee)
 	.delete(emp.deleteEmployee);
-*/
+
 }; 
 
 
