@@ -50,7 +50,7 @@ exports.getEmployee = function (req, res){
 
 	for(x in emp){
 	var res = JSON.stringify(x);
-	console.log("loop " + res.id);
+	console.log("loop " + x.id);
 	
 	}
 
